@@ -1,0 +1,17 @@
+{
+  "name": "rpa-table-extraction-normalizer",
+  "version": "1.0.0",
+  "description": "基于 accessibility 节点快照的 RPA 表格抽取归一化库：合并单元格、虚拟滚动 gap、分页去重与稳定行键",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "README.md"
+  ]
+}
